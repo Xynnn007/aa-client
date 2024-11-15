@@ -40,8 +40,8 @@ yum install -y libtdx-attest-devel
 
 Launch AA
 ```bash
-git clone https://github.com/confidential-containers/guest-components.git
-cd guest-components/attestation-agent && make ttrpc=false ATTESTER=tdx-attester
+git clone https://github.jobcher.com/gh/https://github.com/Xynnn007/guest-components.git
+cd guest-components/attestation-agent && git reset --hard 7efbe34c5b7f225c0308078343af967ef68c2945 && make ttrpc=false ATTESTER=tdx-attester
 cd ..
 
 TRUSTEE_ADDR=xxx
